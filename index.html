@@ -412,7 +412,7 @@
       const getUrlParameter = (param) => new URLSearchParams(window.location.search).get(param);
 
       // Lấy dữ liệu từ URL hoặc dùng giá trị mặc định
-      const name = decodeURIComponent(getUrlParameter('name') || 'Bạn').replace(/\+/g, ' ');
+      const name = decodeURIComponent(getUrlParameter('name') || 'Thl').replace(/\+/g, ' ');
       const dateStr = getUrlParameter('date') || '2010-01-21';
       const photoUrl = getUrlParameter('photo');
       const birthDate = new Date(dateStr);
